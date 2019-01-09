@@ -16,6 +16,7 @@
 	- compas_pattern
 		https://github.com/BlockResearchGroup/compas_pattern
 	- compas_ghc
+		https://github.com/BlockResearchGroup/compas_ghc
 	
 8. Install Grasshopper [Plugins](files). 
 	- [PhysX.GH](https://github.com/TheAsianCoders/PhysX.GH) 
