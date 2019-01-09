@@ -11,7 +11,9 @@
 4. Install Compas to Rhino ```python -m compas_rhino.install 5.0```.
 5. Install Additional Compas packages. 
 	- compas_tna
+		https://github.com/BlockResearchGroup/compas_tna
 	- compas_pattern
+		https://github.com/BlockResearchGroup/compas_pattern
 	- compas_ghc
 	( update Ironpython and system paths )
 6. Install Grasshopper [Plugins](files). 
