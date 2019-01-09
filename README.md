@@ -3,18 +3,22 @@
 
 ## Installation
 
-0. Download Source Code Editor:
+1. Download Source Code Editor:
 	- Visual Studio Code
-1. Download [Anaconda](https://conda.io/docs/user-guide/install/download.html) and install it. (During installation, check add conda to system path.)
-2. Add conda forge ```conda config --add channels conda-forge``` before installing. 
-3. Install Compas ```conda install COMPAS```. 
-4. Install Compas to Rhino ```python -m compas_rhino.install 5.0```.
-5. Install Additional Compas packages. 
+2. Download GitHub Desktop Client
+3. Download [Anaconda](https://conda.io/docs/user-guide/install/download.html) and install it. (During installation, check add conda to system path.)
+4. Add conda forge ```conda config --add channels conda-forge``` before installing. 
+5. Install Compas ```conda install COMPAS```. 
+6. Install Compas to Rhino ```python -m compas_rhino.install 5.0```.
+7. Install Additional Compas packages, and update Ironpython and system paths.
 	- compas_tna
+		https://github.com/BlockResearchGroup/compas_tna
 	- compas_pattern
+		https://github.com/BlockResearchGroup/compas_pattern
 	- compas_ghc
-	( update Ironpython and system paths )
-6. Install Grasshopper [Plugins](files). 
+		https://github.com/BlockResearchGroup/compas_ghc
+	
+8. Install Grasshopper [Plugins](files). 
 	- [PhysX.GH](https://github.com/TheAsianCoders/PhysX.GH) 
 	- [Leopard](https://www.food4rhino.com/app/leopard)
 
