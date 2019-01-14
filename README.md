@@ -19,8 +19,8 @@
 		https://github.com/BlockResearchGroup/compas_ghc
 	
 8. Install Grasshopper [Plugins](files). 
-	- [PhysX.GH](https://github.com/TheAsianCoders/PhysX.GH) 
-	- [Leopard](https://www.food4rhino.com/app/leopard)
+	- [PhysX.GH](https://www.food4rhino.com/app/physxgh) [source](https://github.com/TheAsianCoders/PhysX.GH) 
+	- [Leopard](https://www.food4rhino.com/app/leopard) [source](https://github.com/GeneKao/Leopard)
 
 
 ## Schedule
@@ -51,6 +51,54 @@
 
 18:30-20:00 
 
-* **Module 1**
-	- **Public Lecture by Prof. Mike XIE**
+* **Public Lecture by Prof. Mike XIE**
 
+### Day 2 THU 01.10
+
+9:00-12:00 
+
+* **Exercise**
+   	- Coding Exercise: create your own polyline class
+
+* **Module 2** 
+	- Fundamental Computational Structural Design Concepts
+
+13:30-17:00 
+
+* **Module 3** 
+	- Geometry and Topology I
+
+18:30-20:00 
+
+* **Public Lecture by Prof. Philippe Block**
+
+
+### Day 3 THU 01.14
+
+10:00-12:00 
+
+* **Module 5** 
+	- Geometry and Topology II
+
+13:30-17:00 
+
+* **Module 4** 
+	- [Panelization & Tessellation](src/day_3/m4_tessellation)
+		- remesh
+		- dual mesh
+		- interface generation
+		- planarize interface
+		- voussoir generation
+
+* **Module 6** 
+	- [Equilibrium-Informed Assembly](src/day_3/m6_assembly)
+		- physics simulation using physx
+		- sequencing
+
+* **Module 7** 
+	- Design Space Exploration and Optimization
+
+19:00-21:00 
+
+* **Studio**
+	- Individual Design Project Kick-off

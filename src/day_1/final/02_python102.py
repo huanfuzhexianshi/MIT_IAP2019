@@ -48,6 +48,9 @@ class Point(object):
     def __repr__(self):
         return 'Point({0}, {1}, {2})'.format(self.x, self.y, self.z)
 
+    def __iter__(self):
+        return iter([self.x, self.y, self.z])
+
 
 class Line(object):
     """Class Line
@@ -104,3 +107,8 @@ if __name__ == '__main__':
     print("l1 start point is: ", l1.start)
     # calculate midpoint
     print("midpoint of l1 is: ", l1.midpoint)
+
+    p1 = Point(1, 2, 3)
+    p2 = Point(2, 3, 4)
+    l2 = Line(p1, p2)
+    print("Line 2 is: ", l2)
